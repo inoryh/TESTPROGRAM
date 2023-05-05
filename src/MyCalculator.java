@@ -267,7 +267,7 @@ public class MyCalculator implements ActionListener {
             String num1, num2;
             // 正则表达式匹配浮点数
             if (l.matches("-?\\d+(\\.\\d+)?")) {
-                //if (l.matches("-?\\d+")) {    //正则表达式匹配数字
+                //if (l.matches("-?\\d+")) {    //正则表达式匹配数字,匹配上数字
                 stack3.push(l);
             } else {
                 if(stack3.isEmpty()){
