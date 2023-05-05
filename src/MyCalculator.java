@@ -207,7 +207,7 @@ public class MyCalculator implements ActionListener {
             case "/":
                 // 除数不为 0 则返回结果，除数为 0 弹出提示对话框
                 if (num1 != 0) {
-                    result = num2 / num1; //靠近栈底的做被除数
+                    result = num2 / num1; //靠近栈底的做被除数数字
                 } else {
                     // 提示对话框
                     JOptionPane.showOptionDialog(jf, "除数不能为0", "温馨提示",
